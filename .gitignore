@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Secrets
+config/api_keys.json
+.env
+
+# Logs
+*.log
+crash.log
+
+# Runtime files
+camera_capture.jpg
+current_scan.jpg
+
+# Memory data
+memory/long_term.json
+
+# IDE
+.vscode/
+.idea/
+
+# Generated data
+trace_output/
