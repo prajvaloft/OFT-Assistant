@@ -1,16 +1,32 @@
 # 🤖 OFT (Open Function Toolkit)
 
 📧 Email: [prajvaloft@gmail.com](mailto:prajvaloft@gmail.com)
-🐙 GitHub: prajvaloft
+🐙 GitHub: github.com/prajvaloft
 📸 Instagram: @oft_prajval
 
-### Personal AI Assistant with Voice, Vision, Memory, and Real-World Computer Control
+### AI Desktop Assistant with Voice, Vision, Memory, and Real-World Computer Control
 
-OFT is an AI-powered desktop assistant built in Python that can listen, speak, see, remember, understand, and act.
+OFT is an AI-powered desktop assistant built in Python that can listen, speak, see, remember, understand, and perform actions on a computer.
 
-Unlike traditional chatbots that only generate text, OFT can interact with the user's digital environment through voice commands, computer vision, screen understanding, automation tools, and memory systems.
+Unlike traditional AI chatbots that only generate text, OFT combines voice interaction, computer vision, memory systems, screen understanding, web intelligence, and desktop automation to interact with the user's digital environment.
 
-The goal of OFT is to bridge the gap between AI reasoning and real-world computer interaction.
+The project explores how AI can move beyond conversation and become an active assistant capable of understanding and performing real-world tasks.
+
+---
+
+# 🎥 Demo Video
+
+Watch OFT in action:
+
+🔗 **Demo:https://drive.google.com/file/d/1h83lS-Q01EaHKDbrEOhtCbv7n_BgQH1A/view?usp=drivesdk
+
+## Main Interface
+
+![OFT Main UI](screenshots/main-ui.png)
+
+## OFT Assistant Demo
+
+![OFT Assistant Demo](screenshots/assistant-demo.png)
 
 ---
 
@@ -18,12 +34,12 @@ The goal of OFT is to bridge the gap between AI reasoning and real-world compute
 
 OFT combines multiple AI capabilities into a single assistant platform:
 
-* 🎙️ Real-time voice conversations
+* 🎙️ Real-time voice interaction
 * 🌍 Multi-language communication
 * 👁️ Camera-based object recognition
 * 🖥️ Screen understanding and analysis
 * 🌐 Web search and information retrieval
-* 🧠 Persistent memory
+* 🧠 Context-aware memory system
 * 📂 File and document understanding
 * 💻 Computer control and automation
 * 🔧 AI-powered tool execution
@@ -34,81 +50,129 @@ Instead of simply answering questions, OFT can observe, understand, and perform 
 
 # 🌟 What Makes OFT Different?
 
-Most AI assistants can only respond to text.
+Most AI assistants focus primarily on text generation.
 
 OFT combines:
 
-**Voice + Vision + Memory + Automation**
+### Voice + Vision + Memory + Computer Control
 
-to create an assistant capable of interacting with the real world through a computer.
+This allows the assistant to:
 
-### 👀 Environmental Awareness
-
-OFT can:
-
-* See through a webcam
+* Understand spoken instructions
 * Analyze screen content
-* Read files and documents
-* Understand spoken commands
+* Recognize objects through a webcam
+* Search and retrieve information
+* Open applications
+* Control desktop operations
+* Remember user preferences
+* Execute tasks through specialized tools
 
-This enables the assistant to understand context beyond text input.
+The project focuses on connecting AI reasoning with practical computer interaction.
 
-### ⚡ Action-Oriented AI
+---
 
-OFT does more than provide information.
+# 👀 Environmental Awareness
+
+OFT can understand information from multiple sources:
+
+### Camera Vision
+
+* Detects and describes visible objects
+* Uses AI-powered image understanding
+
+### Screen Understanding
+
+* Analyzes screenshots
+* Reads on-screen content
+* Assists with desktop workflows
+
+### File Understanding
+
+* Reads and analyzes documents
+* Extracts useful information from files
+
+### Voice Interaction
+
+* Converts speech into actions
+* Provides spoken responses
+
+---
+
+# ⚡ Action-Oriented AI
+
+OFT goes beyond answering questions.
 
 It can:
 
 * Open applications
 * Launch websites
-* Control browsers
+* Search the internet
 * Manage files
-* Execute desktop actions
-* Perform automated workflows
+* Perform desktop actions
+* Assist with development tasks
+* Execute automated workflows
 
-### 🧠 Persistent Memory
+---
 
-The assistant can remember:
+# 🧠 Memory System
+
+The assistant can store and retrieve:
 
 * User preferences
 * Important information
-* Previous conversations
-* Ongoing projects
+* Conversation context
+* Knowledge entries
 
-This allows for a more personalized and continuous user experience.
+This helps create a more personalized experience across interactions.
 
-### 🔧 Modular Architecture
+---
 
-Every capability is implemented as a separate tool module.
+# 🏗️ Modular Architecture
 
-New tools can be added easily without modifying the core assistant.
+OFT follows a modular tool-based architecture.
+
+Every capability is implemented as a separate tool module, making the system easy to extend and maintain.
+
+Examples include:
+
+* Camera Vision
+* Browser Control
+* Web Search
+* Computer Control
+* File Processing
+* Weather Reports
+* News Retrieval
+* Maps Integration
+* Memory Management
+
+New tools can be added without modifying the assistant core.
 
 ---
 
 # 🚀 Features
 
-| Feature                       | Description                                       |
-| ----------------------------- | ------------------------------------------------- |
-| 🎙️ Real-Time Voice Assistant | Natural voice conversations with low latency      |
-| 🌍 Multi-Language Support     | Understands and responds in multiple languages    |
-| 👁️ Camera Vision             | Identifies and describes objects through a webcam |
-| 🖥️ Screen Understanding      | Analyzes screenshots and visible screen content   |
-| 🤖 AI Tool Calling            | Automatically selects the correct tool for a task |
-| 🧠 Memory System              | Remembers context, preferences, and conversations |
-| 🌐 Web Search                 | Retrieves information from the internet           |
-| 📰 News Updates               | Provides current news and information             |
-| 🌦️ Weather Reports           | Retrieves weather information                     |
-| 🗺️ Maps Integration          | Opens maps and location services                  |
-| 📂 File Processing            | Reads and analyzes documents and files            |
-| 💻 Computer Control           | Opens applications and performs system actions    |
-| ⌨️ Automation Tools           | Keyboard, mouse, and desktop automation           |
-| 📚 Knowledge Base             | Stores custom knowledge for retrieval             |
-| 🔊 Text-to-Speech             | Speaks responses naturally                        |
-| 🎤 Speech-to-Text             | Converts voice commands into actions              |
+| Feature                   | Description                                 |
+| ------------------------- | ------------------------------------------- |
+| 🎙️ Voice Assistant       | Natural voice conversations                 |
+| 🌍 Multi-Language Support | Supports multiple languages                 |
+| 👁️ Camera Vision         | Object recognition and visual understanding |
+| 🖥️ Screen Understanding  | Analyze screenshots and screen content      |
+| 🤖 AI Tool Calling        | Automatic tool selection                    |
+| 🧠 Memory System          | Context and preference storage              |
+| 🌐 Web Search             | Internet information retrieval              |
+| 📰 News Updates           | Latest news headlines                       |
+| 🌦️ Weather Reports       | Weather information retrieval               |
+| 🗺️ Maps Integration      | Location and navigation support             |
+| 📂 File Processing        | Document analysis                           |
+| 💻 Computer Control       | Desktop automation                          |
+| ⌨️ Automation Tools       | Keyboard and mouse actions                  |
+| 📚 Knowledge Base         | Custom knowledge storage                    |
+| 🔊 Text-to-Speech         | Spoken responses                            |
+| 🎤 Speech-to-Text         | Voice command processing                    |
 
 ---
 
-# 🏗️ Architecture
+# 🏛️ Architecture
 
 ```text
 User
@@ -135,8 +199,6 @@ Browser  Files  System  Web Search
 Control         Control
 ```
 
----
-
 # 🛠️ Technologies Used
 
 * Python
@@ -146,7 +208,7 @@ Control         Control
 * PyQt
 * Playwright
 * AsyncIO
-* JSON Memory System
+* JSON-Based Memory System
 * Speech Recognition
 * Text-to-Speech Systems
 
@@ -156,6 +218,7 @@ Control         Control
 
 ```bash
 git clone https://github.com/prajvaloft/OFT-Assistant.git
+
 cd OFT-Assistant
 
 pip install -r requirements.txt
@@ -164,8 +227,6 @@ playwright install
 
 python main.py
 ```
-
----
 
 # 📋 Requirements
 
@@ -202,11 +263,11 @@ python main.py
 * Android application
 * Cross-platform support
 * Local AI model integration
-* Advanced memory system
+* Enhanced memory system
 * Multi-agent workflows
 * Smart home integration
 * Offline operation mode
-* Task scheduling and automation
+* Advanced task scheduling
 
 ---
 
@@ -218,10 +279,10 @@ This project is intended for educational, research, and portfolio purposes.
 
 # 👨‍💻 Developer
 
-**Prajval Damerla**
+### Prajval Damerla
 
-Building intelligent AI assistants that combine voice, vision, memory, and automation to interact with the real world.
+Building intelligent AI systems that combine voice, vision, memory, and automation to interact with the real world.
 
 📧 [prajvaloft@gmail.com](mailto:prajvaloft@gmail.com)
-🐙 GitHub: prajvaloft
+🐙 GitHub: github.com/prajvaloft
 📸 Instagram: @oft_prajval
